@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detailsLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    android:background="#0D2C4B">
+
+    <!--Design_Card-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#0D2C4B">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detailed Inventory Report"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <!-- Details Output -->
+        <TextView
+            android:id="@+id/txtDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#33FFFFFF"
+            android:padding="16dp"
+            android:text="Inventory details will appear here"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="BACK TO MAIN SCREEN"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="15dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
