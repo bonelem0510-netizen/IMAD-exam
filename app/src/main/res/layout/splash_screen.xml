@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splashLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D2C4B"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!--Design_Card-->
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="580dp"
+        android:background="@drawable/camp_fire"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <!--Title-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Campsite Commander"
+            android:textColor="#FFEB3B"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <!--Start_Button-->
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="START APP"
+            android:textColor="#FFFFFF"
+            android:background=""/>
+
+        <!--Exit_Button-->
+        <Button
+            android:id="@+id/btnExitSplash"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:layout_marginTop="10dp"
+            android:text="EXIT"
+            android:textColor="#FFFFFF"
+            android:background=" "/>
+
+    </LinearLayout>
+</LinearLayout>
